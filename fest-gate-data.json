@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "f833640f-f5c1-4eba-9438-247af6a6fffe",
+      "name": "parth nathvan",
+      "email": "parthnathvani88@gmail.com",
+      "role": "student",
+      "salt": "6a17d3635bae92541d706d1fe5d067a5",
+      "passwordHash": "6184cb7a18f2e9d59dbc758e6b0c6cdb89a74e423bde680b2ad17bbd77dcc7abccdc72786e6277eb098c54e64778052da654e0f1bab3d70a2b39b329e4725bd1"
+    },
+    {
+      "id": "f87f097e-6bbc-4b98-a127-4c32e2c07f16",
+      "name": "kayal raval",
+      "email": "parthnathvani05@gmail.com",
+      "role": "student",
+      "salt": "d459e22428f3d296d8ecb3972c05931f",
+      "passwordHash": "287469dc31b88a03e32b89cfbdd99ac1a43b589228c9eab80e84ba8457e8dc439ed5d0a55e5f05fcb4c92b2b268b3f626ba0b714da1bea43ee03a32e12535652"
+    }
+  ],
+  "events": [
+    {
+      "id": "designathon-26",
+      "name": "Designathon '26",
+      "location": "Innovation Lab · Building A",
+      "date": "2026-10-14",
+      "time": "10:00 AM – 6:00 PM",
+      "capacity": 300,
+      "description": "A day of ideas, teamwork, and rapid prototyping.",
+      "organizer": "Fest Gate Team"
+    },
+    {
+      "id": "music-fest",
+      "name": "Campus Music Fest",
+      "location": "Main Quad · Outdoors",
+      "date": "2026-10-18",
+      "time": "4:00 PM – 10:00 PM",
+      "capacity": 500,
+      "description": "An evening of live music from campus artists.",
+      "organizer": "Fest Gate Team"
+    },
+    {
+      "id": "tech-summit",
+      "name": "Tech & Innovation Summit",
+      "location": "Auditorium · Block C",
+      "date": "2026-10-22",
+      "time": "9:00 AM – 5:00 PM",
+      "capacity": 200,
+      "description": "Meet builders and explore the newest ideas in technology.",
+      "organizer": "Fest Gate Team"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "9b7217d0-045b-4185-a03b-d6e75c8ae7a6",
+      "eventId": "designathon-26",
+      "userId": "f833640f-f5c1-4eba-9438-247af6a6fffe",
+      "name": "parth nathvan",
+      "email": "parthnathvani88@gmail.com",
+      "code": "DF888965FF",
+      "createdAt": "2026-10-10T08:57:58.050Z",
+      "checkedIn": false,
+      "checkinAttempts": 0
+    }
+  ],
+  "activities": [
+    {
+      "id": "3a72342b-93e5-4f86-8036-593e7893e8d5",
+      "type": "signup",
+      "message": "kayal raval joined Fest Gate as student.",
+      "createdAt": "2026-10-10T09:24:43.956Z"
+    },
+    {
+      "id": "89674cf4-47a9-445d-83a7-636b65347192",
+      "type": "registration",
+      "name": "parth nathvan",
+      "email": "parthnathvani88@gmail.com",
+      "event": "Designathon '26",
+      "message": "parth nathvan registered for Designathon '26.",
+      "createdAt": "2026-10-10T08:57:58.050Z"
+    },
+    {
+      "id": "3be76a46-1240-4ad8-8aab-ab172edd304a",
+      "type": "signup",
+      "message": "parth nathvan joined Fest Gate as student.",
+      "createdAt": "2026-10-10T08:43:43.521Z"
+    }
+  ],
+  "duplicateAttempts": [],
+  "outbox": [
+    {
+      "id": "72063130-a1e6-48da-853d-2cb16ec62992",
+      "to": "parthnathvani88@gmail.com",
+      "subject": "Your Fest Gate pass · Designathon '26",
+      "body": "Hi parth nathvan, your pass code for Designathon '26 is DF888965FF. Show your QR pass or code at the check-in desk.",
+      "type": "Pass resend",
+      "status": "Demo outbox · not sent",
+      "createdAt": "2026-10-10T08:58:00.318Z"
+    },
+    {
+      "id": "1473ff02-51d6-4a4a-b5d3-25e533b76a4a",
+      "to": "parthnathvani88@gmail.com",
+      "subject": "You're registered: Designathon '26",
+      "body": "Hi parth nathvan, your registration is confirmed. Your Fest Gate pass code is DF888965FF. Keep it ready for check-in.",
+      "type": "Registration confirmation",
+      "status": "Demo outbox · not sent",
+      "createdAt": "2026-10-10T08:57:58.050Z"
+    },
+    {
+      "id": "e5fba176-f20d-444d-be47-409159f1f8d9",
+      "to": "parthnathvani88@gmail.com",
+      "subject": "New sign-in to Fest Gate",
+      "body": "Hi parth nathvan, your student account signed in to Fest Gate at 10/10/2026, 2:27:51 pm. If this wasn't you, contact your campus organizer.",
+      "type": "Sign-in notice",
+      "status": "Demo outbox · not sent",
+      "createdAt": "2026-10-10T08:57:51.397Z"
+    }
+  ],
+  "automations": {
+    "confirmation": true,
+    "reminder": true,
+    "thankyou": false,
+    "duplicate": true,
+    "waitlist": true,
+    "loginNotice": true,
+    "hourReminder": true,
+    "organizerAlert": true,
+    "checkinReceipt": true,
+    "studentLoginAlert": true
+  },
+  "waitlists": []
+}

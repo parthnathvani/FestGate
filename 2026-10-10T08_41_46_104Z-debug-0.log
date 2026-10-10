@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Parth\Documents\Codex\2026-10-10\hy\outputs\.npmrc
+5 silly config load:file:C:\Users\Parth\.npmrc
+6 silly config load:file:C:\Users\Parth\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install nodemailer
+8 verbose argv "install" "nodemailer" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Parth\Documents\Codex\2026-10-10\hy\outputs\.npm-cache\_logs\2026-10-10T08_41_46_104Z-
+10 verbose logfile C:\Users\Parth\Documents\Codex\2026-10-10\hy\outputs\.npm-cache\_logs\2026-10-10T08_41_46_104Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest nodemailer@*
+15 silly packumentCache full:https://registry.npmjs.org/nodemailer cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/nodemailer 192ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/nodemailer set size:undefined disposed:false
+18 silly placeDep ROOT nodemailer@10.1.0 OK for: fest-gate@1.0.0 want: *
+19 silly reify moves {}
+20 silly audit bulk request { nodemailer: [ '10.1.0' ] }
+21 http cache nodemailer@https://registry.npmjs.org/nodemailer/-/nodemailer-10.1.0.tgz 0ms (cache hit)
+22 silly tarball no local data for nodemailer@https://registry.npmjs.org/nodemailer/-/nodemailer-10.1.0.tgz. Extracting by manifest.
+23 http fetch GET 200 https://registry.npmjs.org/npm 287ms
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 302ms
+25 silly audit report {}
+26 http fetch GET 200 https://registry.npmjs.org/nodemailer/-/nodemailer-10.1.0.tgz 515ms (cache miss)
+27 silly ADD node_modules/nodemailer
+28 verbose cwd C:\Users\Parth\Documents\Codex\2026-10-10\hy\outputs
+29 verbose os Windows_NT 10.0.26300
+30 verbose node v24.20.0
+31 verbose npm  v11.19.0
+32 notice
+32 notice New major version of npm available! 11.19.0 -> 12.2.0
+32 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+32 notice To update run: npm install -g npm@12.2.0
+32 notice  { force: true, Symbol(proc-log.meta): true }
+33 verbose exit 0
+34 info ok
